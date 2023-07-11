@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color:lightgrey;
+
+}
+.personal,.skills,.language{
+    padding:1rem;
+}
+.ul1 ul
+{
+    list-style: circle;
+}
+
+ul{
+    list-style:none;
+    line-height: 2;
+}
+
+main{
+    margin:1rem;
+    display:grid;
+    grid-template-columns:25% 1fr;
+    grid-gap:1rem;
+    filter:drop-shadow(0 0 0.4rem black)
+}
+.left{
+    background-color:white;
+}
+.left-image{
+    position:relative;
+
+}
+.left-image img{
+    width:100%;
+}
+.left-image h2{
+    position:absolute;
+    bottom: 0;
+    left:1rem;
+    color:white;
+    left:1rem;
+}
+.experince.education{
+    line-height: 2;
+    padding:2rem;
+    margin:2rem;
+}
+.experience ul{
+    margin-left:2rem;
+    margin-top: 0;
+
+
+}
+
+.current{
+    background-color:green;
+    color:white;
+    padding:0.4rem;
+    border-radius: 5px;
+    
+}
+.date{
+    color:green;
+}
+.description{
+    list-style: none;
+}
+
+.right{
+    background-color: white;
+    padding:2rem;
+}
+.highschool{
+    line-height:0;
+}
+footer{
+    padding:2rem 0;
+    text-align:center;
+    line-height: 1.5;
+
+
+}
+i{
+    color:green;
+}
+footer i{
+    color:black;
+}
